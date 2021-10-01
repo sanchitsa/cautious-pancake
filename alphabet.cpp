@@ -36,6 +36,7 @@ int32_t main()
         cin >> n;
         ll arr[n];
         input(arr, n);
+        for(int i=0;i<n;i++)cout<<arr[i]<<" ";
     }
     return 0;
 }
